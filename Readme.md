@@ -1,6 +1,6 @@
 # Toldo exam
 
-You can try it here `https://toldo-exam.vercel.app/`
+You can try it [here](`https://toldo-exam.vercel.app/`).
 
 ### Installation
 - clone this repository `git@github.com:mehanika-prog/toldo-exam.git`
