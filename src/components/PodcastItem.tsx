@@ -43,7 +43,7 @@ function PodcastItem({ item, image, channelName, isActive = false, isPlaying = f
                     <div className='h-28 w-28 aspect-square relative'>
                         <img
                             className={playClassString}
-                            src={playing ? '/pause.png' : '/play.png'}
+                            src={playing ? './pause.png' : './play.png'}
                             alt={playing ? 'Pause' : 'Play'}
                             onClick={() => {
                                 handleAudioButtons(
@@ -55,7 +55,7 @@ function PodcastItem({ item, image, channelName, isActive = false, isPlaying = f
                                 )
                             }}
                         />
-                        <img className='w-28 h-28' src={image ? image : '/vite.svg'} alt={channelName ? channelName : 'Logo'}/>
+                        <img className='w-28 h-28' src={image ? image : './vite.svg'} alt={channelName ? channelName : 'Logo'}/>
                     </div>
                     <div className='w-full h-28 border-4 border-l-0 border-black p-5 grow'>
                         <div>{item.title}</div>
