@@ -13,5 +13,5 @@ You can try it [here](https://mehanika-prog.github.io/toldo-exam/).
 - `VITE_RSS_URL` - url to RSS source
 - `VITE_RECORD_TYPE` - type of output audio file, can be `webm` or `mp3`
 
-To start in development mode run `npm run start`
+To start in development mode run `npm run dev`
 
